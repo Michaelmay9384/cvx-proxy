@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: cvx-proxy
+    env: node
+    buildCommand: npm install
+    startCommand: npm start
+    plan: free
